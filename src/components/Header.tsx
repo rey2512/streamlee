@@ -80,7 +80,7 @@ export default function Header() {
           {userName ? (
             <EuiText>
               <h3>
-                <EuiTextColor color="white">HI,</EuiTextColor>
+                <EuiTextColor color="white">Hi,</EuiTextColor>
                 <EuiTextColor color="#45f754">{userName}</EuiTextColor>
               </h3>
             </EuiText>
@@ -188,8 +188,6 @@ export default function Header() {
 
   useEffect(() => {
     if (window.innerWidth < 480) {
-      // sectionSpliced.splice(1, 1);
-      // setSection(sectionSpliced);
       setIsResponsive(true);
     }
   }, []);
@@ -209,6 +207,22 @@ export default function Header() {
           },
         ]}
       />
+      {/* Footer Section */}
+      <div
+        style={{
+          position: "fixed",
+          bottom: 0,
+          width: "100%",
+          textAlign: "center",
+          padding: "1vh 0",
+          backgroundColor: "#333",
+          color: "#fff",
+        }}
+      >
+        <EuiText>
+          Created with <span style={{ color: "#e25555" }}>♡</span> in KIIT
+        </EuiText>
+      </div>
     </>
   );
 }

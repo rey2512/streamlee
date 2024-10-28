@@ -37,7 +37,7 @@ function Dashboard() {
           </EuiFlexItem>
           <EuiFlexItem>
             <EuiCard
-              icon={<EuiImage src={dashboard2} alt="icon" size="100%" />}
+              icon={<EuiImage src={dashboard2} alt="icon" size="50%" />}
               title={`My Meetings`}
               description="View your created meetings."
               onClick={() => navigate("/mymeetings")}
@@ -47,8 +47,8 @@ function Dashboard() {
           <EuiFlexItem>
             <EuiCard
               icon={<EuiImage src={dashboard3} alt="icon" size="5rem" />}
-              title={`Meetings`}
-              description="View the meetings that you are invited to."
+              title={`Meeting History`}
+              description="View the meetings History."
               onClick={() => navigate("/meetings")}
               paddingSize="xl"
             />

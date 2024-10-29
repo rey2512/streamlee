@@ -11,14 +11,14 @@ function MeetingMaximumUsersField({
   return (
     <EuiFormRow label="Maximum People">
       <EuiFieldNumber
-        min={1}
-        max={50}
+        min={0}
+        max={1000}
         placeholder="Maximum People"
         value={value}
         onChange={(e) => {
           if (!e.target.value.length || parseInt(e.target.value) === 0)
             setSize(1);
-          else if (parseInt(e.target.value) > 100) setSize(100);
+          else if (parseInt(e.target.value) > 1000) setSize(1000);
           else setSize(parseInt(e.target.value));
         }}
       />

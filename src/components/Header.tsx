@@ -22,6 +22,7 @@ import {
 } from "../utils/breadcrumbs";
 import { firebaseAuth } from "../utils/firebaseConfig";
 import { BreadCrumbsType } from "../utils/types";
+import { url } from "inspector";
 
 export default function Header() {
   const navigate = useNavigate();
@@ -68,7 +69,7 @@ export default function Header() {
         <Link to="/">
           <EuiText>
             <h2 style={{ padding: "0 1vw" }}>
-              <EuiTextColor color="#45f754">StreamLee</EuiTextColor>
+              <EuiTextColor color="#2ec4b6">StreamLee</EuiTextColor>
             </h2>
           </EuiText>
         </Link>,
@@ -81,7 +82,7 @@ export default function Header() {
             <EuiText>
               <h3>
                 <EuiTextColor color="white">Hi,</EuiTextColor>
-                <EuiTextColor color="#45f754">{userName}</EuiTextColor>
+                <EuiTextColor color="#2ec4b6">{userName}</EuiTextColor>
               </h3>
             </EuiText>
           ) : null}
@@ -137,7 +138,7 @@ export default function Header() {
         <Link to="/">
           <EuiText>
             <h2 style={{ padding: "0 1vw" }}>
-              <EuiTextColor color="#0b5cff">StreamLee</EuiTextColor>
+              <EuiTextColor color="#2ec4b6">StreamLee</EuiTextColor>
             </h2>
           </EuiText>
         </Link>,
@@ -215,7 +216,7 @@ export default function Header() {
           width: "100%",
           textAlign: "center",
           padding: "1vh 0",
-          backgroundColor: "#333",
+          backgroundColor: "#2ec4b6",
           color: "#fff",
         }}
       >

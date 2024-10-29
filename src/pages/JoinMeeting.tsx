@@ -96,7 +96,7 @@ export default function JoinMeeting() {
 
     zp?.joinRoom({
       container: element,
-      maxUsers: 50,
+      maxUsers: 1000,
       sharedLinks: [
         {
           name: "Personal link",

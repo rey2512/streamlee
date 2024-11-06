@@ -18,9 +18,8 @@ The project follows a typical web app structure:
    * /services: API service functions.
    * /styles: Global CSS and stylesheets.
 Technologies Used
-* React: Frontend framework.
-* Next.js: For server-side rendering and routing.
-* Tailwind CSS: Styling framework.
+* React: Frontend framework , tempelate typescript
+* Elastic UI : Styling framework.
 * Vercel: Deployment platform.
 * Firebase: Google-backed platform for easy integration of backend services.
 * ZegoCloud: Developer platform offering voice and video chat APIs.

@@ -30,10 +30,10 @@ Prerequisites
 
 
 Running the Application
-1. Start the Development Server and run the command : npm run dev
+1. Start the Development Server and run the command : npm run dev or yarn start
 2. Open your browser and go to http://localhost:3000 to view the app.
 Deployment
 This project is set up for easy deployment on Vercel:
-1. Connect your GitHub repository to Vercel.
-2. Import your project and configure your environment variables if needed.
-3. Deploy and Vercel will handle the build process.
+3. Connect your GitHub repository to Vercel.
+4. Import your project and configure your environment variables if needed.
+5. Deploy and Vercel will handle the build process.
